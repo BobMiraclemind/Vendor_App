@@ -38,12 +38,12 @@ public class UsersCallListAdapter extends RecyclerView.Adapter<UsersCallListAdap
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         UsersModel usersModel = users.get(position);
 
-        holder.binding.name.setText(usersModel.getName());
+        holder.binding.name.setText(usersModel.getfirstname());
         holder.binding.getRoot().setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent =new Intent(context, CallActivity.class);
-                intent.putExtra("name",usersModel.getName());
+                intent.putExtra("name",usersModel.getfirstname());
                 intent.putExtra("uid",usersModel.getUid());
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
