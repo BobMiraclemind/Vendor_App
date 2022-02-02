@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "276606749149",
-    "firebase_url": "https://astroexpressuser-default-rtdb.firebaseio.com",
-    "project_id": "astroexpressuser",
-    "storage_bucket": "astroexpressuser.appspot.com"
+    "project_number": "321406843377",
+    "firebase_url": "https://astroexpress-f023f-default-rtdb.firebaseio.com",
+    "project_id": "astroexpress-f023f",
+    "storage_bucket": "astroexpress-f023f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:276606749149:android:bd7d99584d8a54abc38e34",
+        "mobilesdk_app_id": "1:321406843377:android:688aa2e727237e093eac50",
         "android_client_info": {
           "package_name": "com.bob.userapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "276606749149-f2u9sdcokvl2kafp6sqs4mj8mmtcutll.apps.googleusercontent.com",
+          "client_id": "321406843377-m6k44aogbpsbfp5usdihdaessm2heshc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bob.userapp",
+            "certificate_hash": "5f79f742699192d49fa4d38c7b4f59bb7ac23a1d"
+          }
+        },
+        {
+          "client_id": "321406843377-653gtkrtmt7k3g6bdgeaogeih30b1lh6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBMBpjzdyeM_sK3VIZVvDbQhJzkWw-WBic"
+          "current_key": "AIzaSyDEFpHb0Wy610M_thWMnNANGk3Z01P4Ykw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "276606749149-f2u9sdcokvl2kafp6sqs4mj8mmtcutll.apps.googleusercontent.com",
+              "client_id": "321406843377-653gtkrtmt7k3g6bdgeaogeih30b1lh6.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -37,14 +45,14 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:276606749149:android:5e2a9e916dc880d6c38e34",
+        "mobilesdk_app_id": "1:321406843377:android:b003baf5896e16f33eac50",
         "android_client_info": {
           "package_name": "com.bob.vendorapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "276606749149-673n332nuamjip7avrlkf5n1v18n7neb.apps.googleusercontent.com",
+          "client_id": "321406843377-ccvh286u94agt47s4nlotta5ufbibfqv.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.bob.vendorapp",
@@ -52,20 +60,20 @@
           }
         },
         {
-          "client_id": "276606749149-f2u9sdcokvl2kafp6sqs4mj8mmtcutll.apps.googleusercontent.com",
+          "client_id": "321406843377-653gtkrtmt7k3g6bdgeaogeih30b1lh6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBMBpjzdyeM_sK3VIZVvDbQhJzkWw-WBic"
+          "current_key": "AIzaSyDEFpHb0Wy610M_thWMnNANGk3Z01P4Ykw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "276606749149-f2u9sdcokvl2kafp6sqs4mj8mmtcutll.apps.googleusercontent.com",
+              "client_id": "321406843377-653gtkrtmt7k3g6bdgeaogeih30b1lh6.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.bob.vendorapp.databinding.ActivityLoginBinding;
+import com.bob.vendorapp.service.RequestNotifyService;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -35,6 +36,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if (mUser != null){
             startActivity(new Intent(getApplicationContext(),DashboardActivity.class));
+            startService(new Intent(getApplicationContext(), RequestNotifyService.class));
             finish();
         }
 
@@ -57,6 +59,7 @@ public class LoginActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
                             startActivity(new Intent(getApplicationContext(),DashboardActivity.class));
+                            startService(new Intent(getApplicationContext(),RequestNotifyService.class));
                             finish();
                         }else {
                             Toast.makeText(getApplicationContext(),task.getException().getMessage(),Toast.LENGTH_LONG).show();

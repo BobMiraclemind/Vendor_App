@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VendorApp">
         <activity
+            android:name=".ui.MyLoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.CallActivity"
             android:exported="false" />
         <activity
@@ -42,6 +45,11 @@
         </activity>
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".service.RequestNotifyService"
+            android:enabled="true"
             android:exported="false" />
     </application>
 
