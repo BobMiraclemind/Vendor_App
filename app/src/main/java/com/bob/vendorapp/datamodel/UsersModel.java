@@ -1,22 +1,22 @@
 package com.bob.vendorapp.datamodel;
 
 public class UsersModel {
-    String name,uid;
+    String firstname,uid;
 
     public UsersModel() {
     }
 
-    public UsersModel(String name, String uid) {
-        this.name = name;
+    public UsersModel(String firstname, String uid) {
+        this.firstname = firstname;
         this.uid = uid;
     }
 
-    public String getName() {
-        return name;
+    public String getfirstname() {
+        return firstname;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setfirstname(String firstname) {
+        this.firstname = firstname;
     }
 
     public String getUid() {

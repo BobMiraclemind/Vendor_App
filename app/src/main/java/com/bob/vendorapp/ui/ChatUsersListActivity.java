@@ -68,8 +68,8 @@ public class ChatUsersListActivity extends AppCompatActivity {
                     if (!uid.matches(dataSnapshot.getKey())){
                         UsersModel usersModel = dataSnapshot.getValue(UsersModel.class);
                         System.out.println(usersModel.getUid());
-                        System.out.println(usersModel.getName());
-                        Log.i(TAG, "onDataChange: "+usersModel.getName()+"\n "+usersModel.getUid());
+                        System.out.println(usersModel.getfirstname());
+                        Log.i(TAG, "onDataChange: "+usersModel.getfirstname()+"\n "+usersModel.getUid());
                         usersList.add(usersModel);
                     }
                 }
